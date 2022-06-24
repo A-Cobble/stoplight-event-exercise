@@ -39,7 +39,7 @@ controls.addEventListener('click', (event) => {
   }
   else if(event.target.id === 'goButton' && goLight.classList.contains('go')){
     console.log(event.target.textContent + ' bulb is on');
-  }else{
+  }else if(event.target.classList.contains('button')){
     console.log(event.target.textContent + ' bulb is off');
   }
 })
