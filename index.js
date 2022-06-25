@@ -4,7 +4,7 @@ let slowButton = document.querySelector('#slowButton');
 let slowLight = document.querySelector('#slowLight');
 let goButton = document.querySelector('#goButton');
 let goLight = document.querySelector('#goLight');
-let buttons = document.querySelectorAll('.button');
+let buttons = document.querySelectorAll('.button'); //[returns all buttons with the class: button] => [stopButton, slowButton, goButton]
 let controls = document.getElementById('controls');
 
 stopButton.addEventListener('click', () => {
